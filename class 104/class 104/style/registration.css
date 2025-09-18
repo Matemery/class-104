@@ -1,0 +1,19 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+text-align: center;
+color: white;
+background-color: black;
+
+}
+.pet-name{
+   display: flex;
+   justify-content: space-between;
+   }
+   .petreg{
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+   }
