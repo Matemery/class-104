@@ -11,6 +11,7 @@ background-color: black;
 .pet-name{
    display: flex;
    justify-content: space-between;
+   margin-right: 40px;
    }
    .petreg{
     display: flex;

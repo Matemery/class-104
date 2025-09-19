@@ -34,45 +34,40 @@
   </div>
 </nav>
     <h1>Registration</h1>
-    <form class="pet-reg">
-        <div class="petreg">
-            <label>Pet name</label>
-            <input type="text">
-            <label>Pet Age</label>
-            <input type="text">
-            <label>Pet Breed</label>
-            <input type="text">
-            <label>Service Requested</label>
-            <input type="text">
-            <label>Pet Gender</label>
-            <input type="text">
-        
-        
-        
-          </div>
+    <form class="container mt-5border rounded p-4">
+      <div class="input-group mb-3">
+        <label class="input-group-text">Name</label>
+        <input class="form-control" type="text" id="name" placeholder="Scooby">
+      </div>
+       <div class="input-group mb-3">
+        <label class="input-group-text">Age</label>
+        <input class="form-control" type="number" id="age" placeholder="4">
+      </div>
+       <div class="input-group mb-3">
+        <label class="input-group-text">Breed</label>
+        <input class="form-control" type="text" id="Breed" placeholder="Great Dane">
+      </div>
+       <div class="input-group mb-3">
+        <label class="input-group-text">Gender</label>
+        <input class="form-control" type="text" id="gender" placeholder="Male">
+      </div>
+       <div class="input-group mb-3">
+        <label class="input-group-text">Services</label>
+        <select class="form-control"  id="Services">
+          <option value="nail-trim">Nail Trim</option>
+          <option value="hair-cut">Hair Cut</option>
+          <option value="full-reatment" selected>Both Hair cut and Nail trim</option>
+          <option value="Select" selected>Select</Select></option>
+          </select>
 
-        
+      </div>
 
-    </form>
-
-   <div class="pet-name">
-    <ul id="pet-names"></ul>
-    
-   
-    <ul id="pet-age"></ul>
-    
-    
-    <ul id="pet-breed"></ul>
-    
-    
-    <ul id="pet-service"></ul>
-    
-    
-    <ul id="pet-gender"></ul>
-    </div>
-    
-     <p>Pet's waiting for service <span id="array-count">3</span></p>
-    
+      <div class="d-flex mt5 justify-content-end">
+        <button class="btn btn-secondary m-1" id="retrieveButton">Retrieve</button>
+        <button class="btn btn-primary m-1" id="saveButton">Save</button>
+        <button class="btn btn-danger m-1" id="deleteButton">Delete</button>
+      </div>
+     </form>
     
     
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

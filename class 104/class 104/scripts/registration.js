@@ -19,51 +19,6 @@ const pets=[
     }
 
 ];
-document.addEventListener("DOMContentLoaded", displayPetNames);
-document.addEventListener("DOMContentLoaded", displayPetAge);
-document.addEventListener("DOMContentLoaded", displayPetBreed);
-document.addEventListener("DOMContentLoaded", displayPetGender);
-document.addEventListener("DOMContentLoaded", displayPetService);
-function displayPetNames() {
-  const petNamesList = document.getElementById("pet-names");
-  pets.forEach(function (pet) {
-          const listItem = document.createElement("li");
-          listItem.textContent = pet.name;
-          petNamesList.appendChild(listItem);
-      });
-}
-function displayPetAge() {
-  const petAgeList = document.getElementById("pet-age");
-  pets.forEach(function (pet) {
-          const listItem = document.createElement("li");
-          listItem.textContent = pet.age;
-          petAgeList.appendChild(listItem);
-      });
-}
-function displayPetBreed() {
-  const petBreedList = document.getElementById("pet-breed");
-  pets.forEach(function (pet) {
-          const listItem = document.createElement("li");
-          listItem.textContent = pet.breed;
-          petBreedList.appendChild(listItem);
-      });
-}
-function displayPetGender() {
-  const petGenderList = document.getElementById("pet-gender");
-  pets.forEach(function (pet) {
-          const listItem = document.createElement("li");
-          listItem.textContent = pet.gender;
-          petGenderList.appendChild(listItem);
-      });
-}
-function displayPetService() {
-  const petServiceList = document.getElementById("pet-service");
-  pets.forEach(function (pet) {
-          const listItem = document.createElement("li");
-          listItem.textContent = pet.service;
-          petServiceList.appendChild(listItem);
-      });
-}
 
 
 
