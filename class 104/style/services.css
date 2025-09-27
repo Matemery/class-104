@@ -1,0 +1,82 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fefaf6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Section Container */
+.offer-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Main Title */
+.offer-section h1 {
+  font-size: 2.5rem;
+  color: #ff6f61;
+  margin-bottom: 15px;
+}
+
+/* Intro Paragraph */
+.intro-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+/* Subheading */
+.offer-section h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Services List */
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li {
+  background: #ffe7d9;
+  color: #444;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.service-list li:hover {
+  background: #ff6f61;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .offer-section {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .offer-section h1 {
+    font-size: 2rem;
+  }
+
+  .service-list li {
+    font-size: 1rem;
+  }
+}

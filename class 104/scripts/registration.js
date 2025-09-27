@@ -13,21 +13,32 @@ const pets=[
     },
     {    name:"Pluto"
         ,age:6
-        ,breed:"great Dane"
+        ,breed:"Great Dane"
         ,service:"Full Treatment"
         ,gender:"Male"
     }
 
 ];
-document.addEventListener("DOMContentLoaded", displayPetNames);
-function displayPetNames() {
-  const petNamesList = document.getElementById("pet-names");
-  pets.forEach(function (pet) {
-          const listItem = document.createElement("li");
-          listItem.textContent = pet.name;
-          petNamesList.appendChild(listItem);
-      });
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

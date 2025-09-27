@@ -9,6 +9,12 @@ background-color: black;
 
 }
 .pet-name{
-    text-align: center;
-
-}
+   display: flex;
+   justify-content: space-between;
+   margin-right: 40px;
+   }
+   .petreg{
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+   }
